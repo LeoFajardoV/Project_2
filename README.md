@@ -10,11 +10,11 @@ I also included a web application where an emergency professional can enter a ne
 
 1. ETL Pipeline In process_data.py, it has a data cleaning pipeline that: Loads the messages and categories datasets Merges the two datasets Cleans the data Stores it in a SQLite database.
 
-2. Machine Learning - ML, Pipeline In train_classifier.py: 
-    a. Loads data from the SQLite database Splits the dataset into training and test. 
-    b. Sets Builds a text processing and machine learning pipeline.
-    c. Trains and tunes a model using GridSearchCV Outputs results on the test set.
-    d. Exports the final model as a pickle file.
+2. Machine Learning - ML, Pipeline In train_classifier.py: \
+    a. Loads data from the SQLite database Splits the dataset into training and test. \
+    b. Sets Builds a text processing and machine learning pipeline.\
+    c. Trains and tunes a model using GridSearchCV Outputs results on the test set.\
+    d. Exports the final model as a pickle file.\
 
 3. Flask Web App In the last step, I'll display my results in a Flask web app. There is an interface where you can classify the message.
 
