@@ -12,8 +12,8 @@ I also included a web application where an emergency professional can enter a ne
 
 2. Machine Learning - ML, Pipeline In train_classifier.py: \
     a. Loads data from the SQLite database Splits the dataset into training and test. \
-    b. Sets Builds a text processing and machine learning pipeline.\
-    c. Trains and tunes a model using GridSearchCV Outputs results on the test set.\
+    b. Sets Builds a text processing and machine learning pipeline. \
+    c. Trains and tunes a model using GridSearchCV Outputs results on the test set. \
     d. Exports the final model as a pickle file.
 
 3. Flask Web App In the last step, I'll display my results in a Flask web app. There is an interface where you can classify the message.
@@ -21,8 +21,8 @@ I also included a web application where an emergency professional can enter a ne
 **Execution instructions**
 
 1. Run the following commands in the project's root directory to set up your database and model.
-    a. To run ETL pipeline that cleans data and stores in database 'python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db'\
-    b. To run ML pipeline that trains classifier and saves 'python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl'
+    a. To run ETL pipeline that cleans data and stores in database 'python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db' \
+    b. To run ML pipeline that trains classifier and saves 'python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl' \
 
 2. Run the following command in the app's directory to run your web app. 'python run.py'
 
