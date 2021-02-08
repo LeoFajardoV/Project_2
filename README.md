@@ -28,6 +28,8 @@ I also included a web application where an emergency professional can enter a ne
 
 3. Go to http://0.0.0.0:3001/
 
+**RESULTS**
 
+![Screenshot](screenshot.png)
 
 
