@@ -30,6 +30,6 @@ I also included a web application where an emergency professional can enter a ne
 
 **RESULTS**
 
-![Screenshot](screenshot.png)
+https://github.com/github/LeoFajardoV/blob/assets/DisasterResponseProject1.png
 
 
